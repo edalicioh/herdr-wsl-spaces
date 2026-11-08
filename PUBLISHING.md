@@ -4,9 +4,8 @@ The public GitHub repository is live at [edalicioh/herdr-wsl-spaces](https://git
 
 ## Remaining before gallery listing
 
-The gallery recipe format calls for a real `preview.png` in every mod folder. The WSL Manager preview is now included. Capture the two remaining views from the current Herdr UI and save them as:
+The gallery recipe format calls for a real `preview.png` in every mod folder. The WSL Manager preview is now included. The Spaces sidebar preview is now included. Capture the remaining view from the current Herdr UI and save it as:
 
-- `spaces-wsl/preview.png`: the Spaces sidebar with the WSL group and its manager button.
 - `new-menu-wsl/preview.png`: the **+** menu open inside a WSL space.
 
 After adding the captures, run:
