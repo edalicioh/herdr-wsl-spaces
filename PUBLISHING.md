@@ -1,25 +1,23 @@
 # Publishing checklist
 
-The code and per-mod recipes are prepared. Gallery previews still need to be captured from the running Herdr UI and saved as `preview.png` in each mod folder.
+The public GitHub repository is live at [edalicioh/herdr-wsl-spaces](https://github.com/edalicioh/herdr-wsl-spaces), and the local `main` branch is pushed to `origin/main`.
 
-## GitHub
+## Remaining before gallery listing
 
-Create the **public** repository `edalicioh/herdr-wsl-spaces`, then from this folder run:
+The gallery recipe format calls for a real `preview.png` in every mod folder. Capture these from the current Herdr UI and save them as:
+
+- `wsl-manager/preview.png`: the manager dialog listing WSL distributions.
+- `spaces-wsl/preview.png`: the Spaces sidebar with the WSL group and its manager button.
+- `new-menu-wsl/preview.png`: the **+** menu open inside a WSL space.
+
+After adding the captures, run:
 
 ```powershell
-git remote add origin https://github.com/edalicioh/herdr-wsl-spaces.git
-git branch -M main
-git push -u origin main
+git add wsl-manager/preview.png spaces-wsl/preview.png new-menu-wsl/preview.png
+git commit -m "Add gallery previews"
+git push
 ```
 
-On GitHub, open **About ? Edit repository details ? Topics** and add:
+Then add the repository topic `herdr-mod` on GitHub under **About ? Edit repository details ? Topics**. The Herdr gallery discovers tagged public repositories.
 
-```text
-herdr-mod
-```
-
-The gallery requires a public repository, one mod folder per mod, a `RECIPE.md`, and a `preview.png` in each folder. The root `README.md` documents installation of all three mods together.
-
-## Preview capture
-
-Capture the WSL manager, the Spaces sidebar with its WSL group, and the **+** menu opened from a WSL space. Save the relevant screenshot in each mod folder as `preview.png`; avoid showing personal paths, tokens, or private repository names.
+The root `README.md` documents the full installation. The three mod folders each have their own `mod.json` and `RECIPE.md`; install the coordinated set with `setup.ps1`.
