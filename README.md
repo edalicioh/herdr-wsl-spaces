@@ -39,4 +39,4 @@ The mods are designed to work together. Run `setup.ps1` to install and wire the 
 
 ## Gallery publication
 
-This repository is public at [edalicioh/herdr-wsl-spaces](https://github.com/edalicioh/herdr-wsl-spaces), and `main` is pushed. Each mod folder has its own `mod.json` and `RECIPE.md`. Add a real `preview.png` to each mod folder, push the images, then add the repository topic `herdr-mod` to list the mods in the Herdr gallery. See [`PUBLISHING.md`](PUBLISHING.md) for the exact filenames and steps. The setup script remains the recommended way to install the coordinated set.
+This public repository is prepared for the Herdr mod gallery: each mod folder has its own `mod.json`, `RECIPE.md`, and `preview.png`. Add the repository topic `herdr-mod` to list the mods in the gallery. See [`PUBLISHING.md`](PUBLISHING.md) for the status. The setup script remains the recommended way to install the coordinated set.

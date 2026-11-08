@@ -1,21 +1,5 @@
-# Publishing checklist
+# Publishing status
 
-The public GitHub repository is live at [edalicioh/herdr-wsl-spaces](https://github.com/edalicioh/herdr-wsl-spaces), and the local `main` branch is pushed to `origin/main`.
+The public repository [edalicioh/herdr-wsl-spaces](https://github.com/edalicioh/herdr-wsl-spaces) contains all three gallery-ready mod folders. Each has a `mod.json`, `RECIPE.md`, and a `preview.png` captured from the Herdr UI. `main` is pushed to `origin`.
 
-## Remaining before gallery listing
-
-The gallery recipe format calls for a real `preview.png` in every mod folder. The WSL Manager preview is now included. The Spaces sidebar preview is now included. Capture the remaining view from the current Herdr UI and save it as:
-
-- `new-menu-wsl/preview.png`: the **+** menu open inside a WSL space.
-
-After adding the captures, run:
-
-```powershell
-git add wsl-manager/preview.png spaces-wsl/preview.png new-menu-wsl/preview.png
-git commit -m "Add gallery previews"
-git push
-```
-
-Then add the repository topic `herdr-mod` on GitHub under **About ? Edit repository details ? Topics**. The Herdr gallery discovers tagged public repositories.
-
-The root `README.md` documents the full installation. The three mod folders each have their own `mod.json` and `RECIPE.md`; install the coordinated set with `setup.ps1`.
+The mods are submitted to the Herdr gallery by adding the repository topic `herdr-mod`. The root `README.md` documents installing the coordinated set with `setup.ps1`.
