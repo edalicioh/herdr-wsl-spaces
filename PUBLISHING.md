@@ -4,10 +4,10 @@ The code and per-mod recipes are prepared. Gallery previews still need to be cap
 
 ## GitHub
 
-Create a **public** repository, then from this folder run:
+Create the **public** repository `edalicioh/herdr-wsl-spaces`, then from this folder run:
 
 ```powershell
-git remote add origin https://github.com/<account>/herdr-wsl-spaces.git
+git remote add origin https://github.com/edalicioh/herdr-wsl-spaces.git
 git branch -M main
 git push -u origin main
 ```
