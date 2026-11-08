@@ -1,0 +1,5 @@
+*.bak-*
+*.error
+*.old-*
+*.reset-*
+herdr-shot.png
